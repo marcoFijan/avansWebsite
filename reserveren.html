@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+  <head>
+    <title>De Krokante Kip</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+	<div id="titleTextBox">
+		<h1 id="homeTitle"> Krokante Kip!</h1>
+	</div>
+  
+    <nav>
+      <ul id="menuUl">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="#">Menu</a>
+          <ul>
+			<li><a href="Menu.html">Populairste gerechten</a></li>
+            <li><a href="#">Prijzen</a></li>
+            <li><a href="#">Acties</a>
+              <ul>
+                <li><a href="#">Acties van de dag</a></li>
+                <li><a href="#">Acties van de maand</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="impressies.html">Impressies</a></li>
+        <li><a href="reserveren.html">Reserveren</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+	
+	<div class="Reserveren">
+	<h1 id="title">Reserveren </h1><br>
+	
+	<div class="popMenu1">
+		<div>
+		
+			<p>
+			Wilt u graag komen eten bij De Krokante Kip, en verzekerd zijn van een plek? <br>
+			Reserveer dan nu door onderstaand formulier in te vullen.
+			</p>
+			
+			<b> Een Bikinibroek high-kip is mogelijk indien u 24u van te voren reserveert.</b><br><br>
+			<h2> Reserveer formulier </h2>
+			<fieldset>
+				<legend>Persoonlijke details</legend>
+				Naam: <input type="text"> <br>
+				Email adres: <input type="text"> <br>
+				<label>Geslacht:<input type="radio" name="geslacht"> Man</label> 
+				<label><input type="radio" name="geslacht"> Vrouw</label> <br> 
+			</fieldset>
+			
+			<fieldset>
+				<legend>Reservering details</legend>
+				<form action="upload.php" method="post" enctype="multipart/form-data">
+				Aantal personen: <select name = "persons">
+				<option value="o1">1 persoon</option>
+				<option value="o1">2 personen</option>
+					<option value="o1">3 personen</option>
+						<option value="o1">4 personen</option>
+							<option value="o1">5 personen</option>
+				</optgroup>
+				<optgroup label="5 of meer personen">
+				<option value="o1">5+ personen</option>
+				<option value="o1">10+ personen</option>
+					<option value="o1">15+ personen</option>
+						<option value="o1">20+ personen</option>
+						<optgroup label="Bij groepen groter dan 20+ dient u te bellen.">
+				</optgroup>
+				</form>	
+			</select><br>
+			</fieldset>
+			
+			Wilt u zich ook meteen inschrijven voor onze nieuwsbrief? 
+			<input type="checkbox"><br>
+			<input type="submit">
+			
+			<br><br>
+			<b> Uw reservering is pas definitief als wij deze beantwoord hebben.</b>
+			<br><br>
+			<a href="C:\Users\Marco\Desktop\Webdesign\Week1\week1.html">KLIK HIER voor ons telefoonnummer om te kunnen reserveren voor groepen groter dan 20 personen.</a>
+			
+		</div>
+	
+	
+	
+	
+	
+	
+	
+	
+</div>
+	<footer>
+		<div class="footer white-bg">
+				<div class="column-4 text-center">
+					<h3>Contactgegevens</h3>
+					<p><b>De krokante kip</b><br>
+						Schelpenlaan 78,<br>
+						7576 CA
+						Bikinibroek</p>
+				</div>
+				<div class="column-4 text-center">
+					<h3>Openingstijden</h3>
+					<p>Maandag t/m donderdag vanaf 12.00 <br>
+					Vrijdag, zaterdag en zondag vanaf 10.00</p>
+				</div>
+				<div class="column-4 text-center">
+					<h3>Blijf op de hoogte!</h3>
+					 <div>
+            <input type="text" name="subject" placeholder="Uw e-mailadres hier"/>
+            <input type="submit" name="submit" value="Verzenden" />
+      
+        </div>
+				</div>
+				<div class="column-4 text-center">
+					<h3></h3>
+				</div>
+				
+			
+				<div class="clear"></div>
+				<hr>
+				
+	<div class="footerContactText"><p>Wilt u snel reserveren of met een grote groep langskomen?</p>
+<p>Bel ons op <em><a href="tel:0123456789">0123456789</a></em> of stuur een mail naar <em><a href="mailto:info@krokantekip.nl">info@krokantekip.nl</a></em></p>
+</div>
+				
+				
+				
+		</div>
+	</footer>
+	
+	
+	</body>
+	</html>

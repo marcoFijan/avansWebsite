@@ -1,0 +1,136 @@
+body{
+	background-image: url("krusty.jpg");
+	background-size: cover;
+    background-repeat: repeat;
+}
+
+#titleTextBox{
+	opacity: 0.9;	
+	border: 7px inset;
+	border-color: #E9F1F2;
+	border-radius: 40%;
+	  font-variant: small-caps;
+	
+}
+
+#homeTitle{
+	text-align: center;
+	color: white;
+	margin: 0px;
+	font-size: 80px;
+	text-shadow: 5px 5px 3px #E9F1F2;
+}
+
+
+
+h2{
+	text-align: center;
+	color: white;
+	margin: 0px;
+	text-shadow: 5px 5px 3px #E9F1F2;
+}
+
+#menuUl{
+    padding:0px;
+    list-style:none;
+    display:flex;
+}
+
+nav li {
+    position: relative;
+	z-index; 99;
+    flex:1;
+	list-style-type:none;
+}
+
+nav a{
+    display: block;
+    padding:15px;
+    background-color:#0099cc;
+	opacity: 0.7;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+	border: 3px double;
+	font-weight: bold;
+	z-index: 99;
+}
+
+nav li:hover > a{
+    background-color:81DEEA;
+    color:white;
+	z-index: 99;
+}
+
+nav > ul > li > ul{
+    top: 100%;
+    left: 0;
+	z-index: 99;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width:100%;
+    box-sizing: border-box;
+	z-index: 99;
+	padding-left:0;
+}
+
+nav li:hover > ul {
+    display: block;
+	z-index: 99;
+}
+
+#homeText{
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	opacity: 0.8;
+	background-color: #EBEAE9;
+	border: 3px double;
+	min-height: 500px;
+	border-radius: 20px;
+}
+
+.column-4 {
+	width: 25%;
+	float: left;
+}
+.text-center {
+	text-align: center;
+}
+
+.white-bg {
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+}
+
+.footer{
+	margin-top:50px;
+}
+
+.footerContactText {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
